@@ -1,0 +1,17 @@
+{
+  "name": "newproject",
+  "version": "1.0.0",
+  "description": "Prints the local time in the terminal",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
